@@ -7,3 +7,10 @@
 HINT: 'arrayname.length' will return the length of the number of elements in an array.
 
 */
+let words = ["Maple", "Oak", "Pine", "Birch", "Cedar"];
+let i = 0;
+while (i < words.length) {
+  console.log(words[1]);  // Always logs "Oak"
+  i++;
+}
+console.log("That's all!");
